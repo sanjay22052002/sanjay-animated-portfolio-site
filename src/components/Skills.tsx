@@ -35,7 +35,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 px-4 bg-black/20" ref={sectionRef}>
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent">
+        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           Technical Skills
         </h2>
         
@@ -49,23 +49,23 @@ const Skills = () => {
                 style={{ animationDelay: `${index * 200}ms` }}
               >
                 <div className="flex items-center mb-4">
-                  <div className="p-3 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mr-4 group-hover:rotate-12 transition-transform duration-300">
+                  <div className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full mr-4 group-hover:rotate-12 transition-transform duration-300">
                     <Icon className="w-5 h-5 text-white" />
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-white">{skill.name}</h3>
-                    <p className="text-sm text-purple-300">{skill.category}</p>
+                    <p className="text-sm text-cyan-300">{skill.category}</p>
                   </div>
                 </div>
                 
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">
                     <span className="text-gray-300">Proficiency</span>
-                    <span className="text-purple-300">{skill.level}%</span>
+                    <span className="text-cyan-300">{skill.level}%</span>
                   </div>
                   <div className="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
                     <div
-                      className="bg-gradient-to-r from-purple-500 to-pink-500 h-full rounded-full transition-all duration-2000 ease-out"
+                      className="bg-gradient-to-r from-cyan-500 to-blue-500 h-full rounded-full transition-all duration-2000 ease-out"
                       style={{
                         width: isVisible ? `${skill.level}%` : '0%',
                         transitionDelay: `${index * 200}ms`
@@ -84,17 +84,17 @@ const Skills = () => {
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
                 <div className="text-3xl mb-2">🎨</div>
-                <h4 className="font-semibold text-purple-300 mb-2">UI/UX Design</h4>
+                <h4 className="font-semibold text-cyan-300 mb-2">UI/UX Design</h4>
                 <p className="text-gray-400 text-sm">Modern, responsive design principles</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl mb-2">⚡</div>
-                <h4 className="font-semibold text-purple-300 mb-2">Performance</h4>
+                <h4 className="font-semibold text-cyan-300 mb-2">Performance</h4>
                 <p className="text-gray-400 text-sm">Optimized, fast-loading applications</p>
               </div>
               <div className="text-center">
                 <div className="text-3xl mb-2">🔧</div>
-                <h4 className="font-semibold text-purple-300 mb-2">Problem Solving</h4>
+                <h4 className="font-semibold text-cyan-300 mb-2">Problem Solving</h4>
                 <p className="text-gray-400 text-sm">Creative solutions to complex challenges</p>
               </div>
             </div>

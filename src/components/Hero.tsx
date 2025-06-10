@@ -19,7 +19,7 @@ const Hero = () => {
     return () => clearInterval(timer);
   }, []);
 
-  const backgroundPattern = "data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
+  const backgroundPattern = "data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2306b6d4' fill-opacity='0.1'%3E%3Ccircle cx='30' cy='30' r='1'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E";
 
   return (
     <section className="min-h-screen flex items-center justify-center relative">
@@ -30,14 +30,14 @@ const Hero = () => {
       
       <div className="text-center z-10 animate-fade-in-up">
         <div className="mb-8">
-          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-purple-500 to-pink-500 p-1 animate-pulse">
+          <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 p-1 animate-pulse">
             <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-6xl font-bold">
               S
             </div>
           </div>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-purple-400 to-pink-400 bg-clip-text text-transparent animate-slide-in-left">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent animate-slide-in-left">
           Sanjay
         </h1>
         
@@ -64,7 +64,7 @@ const Hero = () => {
         </div>
         
         <a href="#about" className="inline-block animate-bounce">
-          <ChevronDown className="w-8 h-8 text-purple-400" />
+          <ChevronDown className="w-8 h-8 text-cyan-400" />
         </a>
       </div>
     </section>
