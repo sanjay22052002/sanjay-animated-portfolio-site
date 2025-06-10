@@ -5,7 +5,7 @@ const Experience = () => {
   return (
     <section id="experience" className="py-20 px-8 bg-gradient-to-br from-blue-900/40 to-cyan-900/20">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent tracking-tight">
           Experience
         </h2>
         
@@ -17,64 +17,64 @@ const Experience = () => {
                   <Briefcase className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-white">Intern</h3>
-                  <p className="text-xl text-cyan-300">Cyvar Corp Private LTD</p>
+                  <h3 className="text-2xl font-bold text-white tracking-wide">Intern</h3>
+                  <p className="text-xl text-cyan-300 font-medium tracking-wide">Cyvar Corp Private LTD</p>
                 </div>
               </div>
               
               <div className="text-right">
                 <div className="flex items-center text-gray-300 mb-2">
                   <Calendar className="w-4 h-4 mr-2" />
-                  <span>Completed</span>
+                  <span className="font-light">Completed</span>
                 </div>
                 <div className="flex items-center text-gray-300">
                   <MapPin className="w-4 h-4 mr-2" />
-                  <span>Chennai</span>
+                  <span className="font-light">Chennai</span>
                 </div>
               </div>
             </div>
             
             <div className="space-y-6">
               <div>
-                <h4 className="text-lg font-semibold text-cyan-300 mb-3">Key Responsibilities</h4>
+                <h4 className="text-lg font-medium text-cyan-300 mb-3 tracking-wide">Key Responsibilities</h4>
                 <div className="grid sm:grid-cols-2 gap-3">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Full stack web development</span>
+                    <span className="text-gray-300 text-sm font-light">Full stack web development</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Frontend development with React</span>
+                    <span className="text-gray-300 text-sm font-light">Frontend development with React</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Backend API development</span>
+                    <span className="text-gray-300 text-sm font-light">Backend API development</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Database management</span>
+                    <span className="text-gray-300 text-sm font-light">Database management</span>
                   </div>
                 </div>
               </div>
               
               <div>
-                <h4 className="text-lg font-semibold text-cyan-300 mb-3">Skills Gained</h4>
+                <h4 className="text-lg font-medium text-cyan-300 mb-3 tracking-wide">Skills Gained</h4>
                 <div className="grid sm:grid-cols-2 gap-3">
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Industry best practices</span>
+                    <span className="text-gray-300 text-sm font-light">Industry best practices</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Team collaboration</span>
+                    <span className="text-gray-300 text-sm font-light">Team collaboration</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Project management</span>
+                    <span className="text-gray-300 text-sm font-light">Project management</span>
                   </div>
                   <div className="flex items-center">
                     <div className="w-2 h-2 bg-blue-400 rounded-full mr-3"></div>
-                    <span className="text-gray-300 text-sm">Code optimization</span>
+                    <span className="text-gray-300 text-sm font-light">Code optimization</span>
                   </div>
                 </div>
               </div>

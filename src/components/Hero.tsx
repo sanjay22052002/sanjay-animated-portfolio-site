@@ -31,22 +31,22 @@ const Hero = () => {
       <div className="text-center z-10 animate-fade-in-up">
         <div className="mb-8">
           <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-r from-cyan-500 to-blue-500 p-1 animate-pulse">
-            <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-6xl font-bold">
+            <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center text-6xl font-bold font-mono">
               S
             </div>
           </div>
         </div>
         
-        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent animate-slide-in-left">
+        <h1 className="text-5xl md:text-7xl font-bold mb-4 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent animate-slide-in-left tracking-tight">
           Sanjay
         </h1>
         
-        <div className="text-2xl md:text-3xl mb-6 h-10 animate-slide-in-right">
-          <span className="text-gray-300">{text}</span>
-          <span className="animate-pulse">|</span>
+        <div className="text-2xl md:text-3xl mb-6 h-10 animate-slide-in-right font-medium">
+          <span className="text-gray-300 font-mono">{text}</span>
+          <span className="animate-pulse font-mono">|</span>
         </div>
         
-        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto px-4 animate-fade-in-up animation-delay-1000">
+        <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto px-4 animate-fade-in-up animation-delay-1000 font-light leading-relaxed">
           BSc Computer Science graduate with expertise in modern web technologies. 
           Passionate about creating innovative solutions and beautiful user experiences.
         </p>

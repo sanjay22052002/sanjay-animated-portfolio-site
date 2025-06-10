@@ -35,7 +35,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-20 px-8 bg-gradient-to-br from-blue-900/30 to-slate-900/50" ref={sectionRef}>
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent tracking-tight">
           Technical Skills
         </h2>
         
@@ -54,11 +54,11 @@ const Skills = () => {
                       <Icon className="w-4 h-4 text-white" />
                     </div>
                     <div>
-                      <h3 className="font-semibold text-white">{skill.name}</h3>
-                      <p className="text-xs text-cyan-300">{skill.category}</p>
+                      <h3 className="font-medium text-white tracking-wide">{skill.name}</h3>
+                      <p className="text-xs text-cyan-300 font-light tracking-wide">{skill.category}</p>
                     </div>
                   </div>
-                  <span className="text-cyan-300 font-semibold">{skill.level}%</span>
+                  <span className="text-cyan-300 font-mono font-medium">{skill.level}%</span>
                 </div>
                 
                 <div className="w-full bg-gray-700 rounded-full h-2 overflow-hidden">
@@ -80,24 +80,24 @@ const Skills = () => {
             <div className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full w-fit mx-auto mb-4">
               <Palette className="w-6 h-6 text-white" />
             </div>
-            <h4 className="font-semibold text-cyan-300 mb-2">UI/UX Design</h4>
-            <p className="text-gray-400 text-sm">Modern, responsive design principles</p>
+            <h4 className="font-medium text-cyan-300 mb-2 tracking-wide">UI/UX Design</h4>
+            <p className="text-gray-400 text-sm font-light">Modern, responsive design principles</p>
           </div>
           
           <div className="text-center bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full w-fit mx-auto mb-4">
               <Zap className="w-6 h-6 text-white" />
             </div>
-            <h4 className="font-semibold text-cyan-300 mb-2">Performance</h4>
-            <p className="text-gray-400 text-sm">Optimized, fast-loading applications</p>
+            <h4 className="font-medium text-cyan-300 mb-2 tracking-wide">Performance</h4>
+            <p className="text-gray-400 text-sm font-light">Optimized, fast-loading applications</p>
           </div>
           
           <div className="text-center bg-white/5 backdrop-blur-md rounded-2xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300">
             <div className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full w-fit mx-auto mb-4">
               <Lightbulb className="w-6 h-6 text-white" />
             </div>
-            <h4 className="font-semibold text-cyan-300 mb-2">Problem Solving</h4>
-            <p className="text-gray-400 text-sm">Creative solutions to complex challenges</p>
+            <h4 className="font-medium text-cyan-300 mb-2 tracking-wide">Problem Solving</h4>
+            <p className="text-gray-400 text-sm font-light">Creative solutions to complex challenges</p>
           </div>
         </div>
       </div>
