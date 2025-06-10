@@ -1,59 +1,70 @@
 
-import { User, MapPin, Calendar } from "lucide-react";
+import { User, MapPin, Calendar, Code2 } from "lucide-react";
 
 const About = () => {
   return (
-    <section id="about" className="py-20 px-4">
-      <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-16 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
+    <section id="about" className="py-20 px-8 bg-gradient-to-br from-slate-900/50 to-blue-900/30">
+      <div className="max-w-4xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold mb-12 bg-gradient-to-r from-cyan-400 to-blue-400 bg-clip-text text-transparent">
           About Me
         </h2>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6">
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 hover:bg-white/15 transition-all duration-300 transform hover:scale-105">
-              <div className="flex items-center mb-4">
-                <User className="w-6 h-6 text-cyan-400 mr-3" />
-                <h3 className="text-xl font-semibold">Personal Info</h3>
+        <div className="space-y-8">
+          <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 border border-white/10">
+            <div className="flex items-start space-x-4">
+              <div className="p-3 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-lg">
+                <User className="w-5 h-5 text-white" />
               </div>
-              <p className="text-gray-300 leading-relaxed">
-                I'm a passionate full-stack developer with a strong foundation in computer science. 
-                I love creating digital experiences that are both functional and beautiful.
-              </p>
-            </div>
-            
-            <div className="bg-white/10 backdrop-blur-md rounded-2xl p-8 hover:bg-white/15 transition-all duration-300 transform hover:scale-105">
-              <div className="flex items-center mb-4">
-                <MapPin className="w-6 h-6 text-cyan-400 mr-3" />
-                <h3 className="text-xl font-semibold">Location</h3>
+              <div className="flex-1">
+                <h3 className="text-lg font-semibold mb-2 text-white">Personal Story</h3>
+                <p className="text-gray-300 leading-relaxed">
+                  I'm a passionate full-stack developer with a strong foundation in computer science. 
+                  I love creating digital experiences that are both functional and beautiful, always 
+                  striving to learn new technologies and improve my skills.
+                </p>
               </div>
-              <p className="text-gray-300">Chennai, Tamil Nadu, India</p>
             </div>
           </div>
           
-          <div className="space-y-4">
-            <div className="bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-md rounded-2xl p-8 border border-white/10">
-              <div className="flex items-center mb-4">
-                <Calendar className="w-6 h-6 text-cyan-400 mr-3" />
-                <h3 className="text-xl font-semibold">Journey</h3>
+          <div className="grid md:grid-cols-2 gap-6">
+            <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 border border-white/10">
+              <div className="flex items-center mb-3">
+                <MapPin className="w-5 h-5 text-cyan-400 mr-3" />
+                <h3 className="text-lg font-semibold text-white">Location</h3>
               </div>
-              <div className="space-y-4">
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-4"></div>
-                  <span className="text-gray-300">Started with Computer Science fundamentals</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-4"></div>
-                  <span className="text-gray-300">Specialized in Full Stack Development</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-4"></div>
-                  <span className="text-gray-300">Gained industry experience through internship</span>
-                </div>
-                <div className="flex items-center">
-                  <div className="w-3 h-3 bg-cyan-400 rounded-full mr-4"></div>
-                  <span className="text-gray-300">Continuously learning and growing</span>
-                </div>
+              <p className="text-gray-300">Chennai, Tamil Nadu, India</p>
+            </div>
+            
+            <div className="bg-white/5 backdrop-blur-md rounded-2xl p-6 hover:bg-white/10 transition-all duration-300 border border-white/10">
+              <div className="flex items-center mb-3">
+                <Code2 className="w-5 h-5 text-cyan-400 mr-3" />
+                <h3 className="text-lg font-semibold text-white">Focus</h3>
+              </div>
+              <p className="text-gray-300">Full Stack Development</p>
+            </div>
+          </div>
+          
+          <div className="bg-gradient-to-r from-cyan-500/10 to-blue-500/10 backdrop-blur-md rounded-2xl p-6 border border-cyan-500/20">
+            <div className="flex items-center mb-4">
+              <Calendar className="w-5 h-5 text-cyan-400 mr-3" />
+              <h3 className="text-lg font-semibold text-white">Journey Highlights</h3>
+            </div>
+            <div className="grid sm:grid-cols-2 gap-3">
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                <span className="text-gray-300 text-sm">Computer Science Graduate</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                <span className="text-gray-300 text-sm">Full Stack Training</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                <span className="text-gray-300 text-sm">Industry Internship</span>
+              </div>
+              <div className="flex items-center">
+                <div className="w-2 h-2 bg-cyan-400 rounded-full mr-3"></div>
+                <span className="text-gray-300 text-sm">Continuous Learning</span>
               </div>
             </div>
           </div>
